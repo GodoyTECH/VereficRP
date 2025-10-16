@@ -1,0 +1,418 @@
+{
+  "regras": {
+    "NAME1": {
+      "keywords": ["nickname errado", "nick fora do rp", "nome sem rp", "nickname fora do rp"],
+      "descricao": "Uso de Nickname que não seja referente a Role Play.",
+      "penalidade": "Mudança forçada do nickname",
+      "categoria": "Nome"
+    },
+    "NAME2": {
+      "keywords": ["nickname ofensivo", "nick ofensivo", "nome ofensivo"],
+      "descricao": "Uso de nickname ofensivo NRP.",
+      "penalidade": "Mudança forçada do nickname",
+      "categoria": "Nome"
+    },
+    "AC1": {
+      "keywords": ["venda de conta", "vender conta", "venda conta"],
+      "descricao": "Venda ou tentativa de venda de uma CONTA.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Contas"
+    },
+    "AC2": {
+      "keywords": ["transferência de conta", "transferir conta", "transferir a conta"],
+      "descricao": "Transferência ou tentativa de transferir uma CONTA.",
+      "penalidade": "Bloqueio permanente da CONTA transferida",
+      "categoria": "Contas"
+    },
+    "AC3": {
+      "keywords": ["mais de 3 contas", "multi conta", "várias contas"],
+      "descricao": "Criar mais de 3 CONTAS.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS criadas após a terceira",
+      "categoria": "Contas"
+    },
+    "AC4": {
+      "keywords": ["hackear conta", "roubar conta", "invadir conta", "hack conta"],
+      "descricao": "Hack de CONTAS.",
+      "penalidade": "Bloqueio permanente da CONTA do infrator e troca forçada da senha",
+      "categoria": "Contas"
+    },
+    "AC5": {
+      "keywords": ["rmt", "vender itens por dinheiro real", "comprar dinheiro real", "vender por dinheiro real"],
+      "descricao": "RMT - venda ou compra de itens/jogo por dinheiro real.",
+      "penalidade": "Banimento permanente de todas as contas",
+      "categoria": "Contas"
+    },
+    "RP1": {
+      "keywords": ["dm", "matar sem motivo", "deathmatch", "matou sem motivo"],
+      "descricao": "DeathMatch - Causar dano ou matar sem motivo de RP.",
+      "penalidade": "20 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP2": {
+      "keywords": ["dm auto", "dmauto", "bater em carro sem motivo", "destruir veículo sem motivo"],
+      "descricao": "DeathMatch Auto - Causar dano a veículo sem motivo RP.",
+      "penalidade": "20 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP3": {
+      "keywords": ["poder não rp", "usar poder não rp", "poder nrp"],
+      "descricao": "Poder NãoRP - uso de poderes além do personagem.",
+      "penalidade": "15 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP4": {
+      "keywords": ["não rp", "situação irrealista", "romper rp", "non roleplay"],
+      "descricao": "Non RolePlay - criar situações fora da lógica RP.",
+      "penalidade": "15 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP5": {
+      "keywords": ["metagaming", "mg", "usar info do discord", "meta gaming"],
+      "descricao": "Meta Gaming - usar informações externas dentro do RP.",
+      "penalidade": "30 min mute até 60 min cadeia",
+      "categoria": "RP"
+    },
+    "RP6": {
+      "keywords": ["abandonar rp", "recusar rp", "fugir para zona verde", "escapar para zona verde"],
+      "descricao": "Abandono de RP.",
+      "penalidade": "30 a 60 minutos na cadeia",
+      "categoria": "RP"
+    },
+    "RP7": {
+      "keywords": ["benefício próprio rp", "forçar rp próprio", "rp benefício próprio"],
+      "descricao": "Uso desigual do RP em favor próprio.",
+      "penalidade": "20 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP8": {
+      "keywords": ["afk", "inativo", "ausente"],
+      "descricao": "Ficar AFK por mais de 5 minutos.",
+      "penalidade": "Desconexão do servidor",
+      "categoria": "RP"
+    },
+    "RP9": {
+      "keywords": ["driveby", "db", "atropelar", "matar com carro"],
+      "descricao": "DriveBy - matar usando veículo.",
+      "penalidade": "60 minutos na prisão",
+      "categoria": "RP"
+    },
+    "RP9.1": {
+      "keywords": ["mass driveby", "matar vários atropelando", "mass db"],
+      "descricao": "Mass DriveBy - matar vários usando veículo.",
+      "penalidade": "Banimento de 12 horas",
+      "categoria": "RP"
+    },
+    "RP10": {
+      "keywords": ["rk", "repeat kill", "voltar após morte", "retornar após morte"],
+      "descricao": "Repeat Kill - retornar após a morte.",
+      "penalidade": "90 minutos de cadeia",
+      "categoria": "RP"
+    },
+    "RP11": {
+      "keywords": ["área protegida", "zona verde", "atacar em zona segura", "crime em área protegida"],
+      "descricao": "Não cumprimento das áreas protegidas - cometer crimes em zonas verdes ou de trabalho.",
+      "penalidade": "De 30 a 60 minutos na cadeia",
+      "categoria": "RP"
+    },
+    "RP12": {
+      "keywords": ["sequestro nrp", "sequestro irrealista", "sequestro sem motivo"],
+      "descricao": "Sequestro NRP - tentativa de sequestro irrealista.",
+      "penalidade": "Prisão por 30 minutos",
+      "categoria": "RP"
+    },
+    "RP13": {
+      "keywords": ["faction nrp", "facção nrp", "policial irregular", "exército irregular"],
+      "descricao": "Faction NRP - comportamento fora do roleplay dentro das facções.",
+      "penalidade": "Exoneração da facção E/OU de 30 minutos na cadeia até 3 dias de banimento",
+      "categoria": "RP"
+    },
+    "RP14": {
+      "keywords": ["importunação sexual", "assédio sexual", "conteúdo sexual", "insulto étnico"],
+      "descricao": "Importunação de cunho sexual - ações sexuais não consensuais ou insultos étnicos/LGBT+.",
+      "penalidade": "60 minutos de mute ou banimento de 24 horas até 30 dias",
+      "categoria": "RP"
+    },
+    "RP15": {
+      "keywords": ["interromper polícia", "perturbar exército", "atrapalhar operação"],
+      "descricao": "Interrupção das Operações da Polícia e do Exército.",
+      "penalidade": "30 minutos na cadeia",
+      "categoria": "RP"
+    },
+    "RP16": {
+      "keywords": ["atacar médico", "crime contra emergência", "atacar pessoal médico"],
+      "descricao": "Atos Criminais Contra Pessoal de Emergência.",
+      "penalidade": "De 90 minutos na prisão a 12 horas de banimento",
+      "categoria": "RP"
+    },
+    "CHAT1": {
+      "keywords": ["insultar jogador", "xingar jogador", "ofender jogador"],
+      "descricao": "Insultar outros JOGADORES.",
+      "penalidade": "1 dia de banimento",
+      "categoria": "Chat"
+    },
+    "CHAT2": {
+      "keywords": ["insultar família", "xingar mãe", "ofensa familiar", "xingar família"],
+      "descricao": "Insulto a familiares.",
+      "penalidade": "240 minutos mute até 3 dias ban",
+      "categoria": "Chat"
+    },
+    "CHAT3": {
+      "keywords": ["insultar religião", "ofender país", "insultar gênero", "ofensa religiosa"],
+      "descricao": "Insulto a religião, gênero, sexo ou nacionalidade.",
+      "penalidade": "240 minutos mute até 3 dias ban",
+      "categoria": "Chat"
+    },
+    "CHAT4": {
+      "keywords": ["insultar administração", "xingar admin", "ofender staff"],
+      "descricao": "Insulto à ADMINISTRAÇÃO.",
+      "penalidade": "De 240 minutos de mute até banimento da conta por 7 dias",
+      "categoria": "Chat"
+    },
+    "CHAT5": {
+      "keywords": ["flood", "spam", "macro"],
+      "descricao": "Flood no chat, spam ou macros.",
+      "penalidade": "10 minutos bloqueio de chat",
+      "categoria": "Chat"
+    },
+    "CHAT6": {
+      "keywords": ["flood no report", "spam no report"],
+      "descricao": "Flood no Report ou em qualquer outro meio de feedback.",
+      "penalidade": "Mute de 10 a 30 minutos",
+      "categoria": "Chat"
+    },
+    "CHAT7": {
+      "keywords": ["publicidade não autorizada", "propaganda não autorizada", "anúncio não autorizado"],
+      "descricao": "Publicidade não autorizada.",
+      "penalidade": "Bloqueio da CONTA do infrator por 10 DIAS",
+      "categoria": "Chat"
+    },
+    "CHAT8": {
+      "keywords": ["música no call", "som em call", "musica no voz", "ruído no chat"],
+      "descricao": "Música ou ruídos no chat de voz.",
+      "penalidade": "60 minutos bloqueio de chat",
+      "categoria": "Chat"
+    },
+    "CHAT9": {
+      "keywords": ["se passar por admin", "imitar administração", "fingir ser staff"],
+      "descricao": "Se passar por um representante da ADMINISTRAÇÃO ou funcionário da EMPRESA.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Chat"
+    },
+    "CHAT10": {
+      "keywords": ["enganar jogadores", "ludibriar jogadores", "enganação"],
+      "descricao": "Enganar JOGADORES do projeto ONESTATE.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Chat"
+    },
+    "CHAT11": {
+      "keywords": ["enganar administração", "mentir para admin", "enganação staff"],
+      "descricao": "Enganar a ADMINISTRAÇÃO.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Chat"
+    },
+    "CHAT12": {
+      "keywords": ["difamação", "atacar projeto", "descreditar projeto"],
+      "descricao": "Difamação - atentar contra a integridade moral e legal do projeto.",
+      "penalidade": "Bloqueio de todas as contas por até 30 dias",
+      "categoria": "Chat"
+    },
+    "CHAT13": {
+      "keywords": ["ameaças ooc", "ameaça vida real", "ameaça física"],
+      "descricao": "Ameaças OOC - ameaças à integridade física de alguém na vida real.",
+      "penalidade": "Bloqueio da conta por 10 dias",
+      "categoria": "Chat"
+    },
+    "CHAT14": {
+      "keywords": ["influência nrp", "induzir quebra de regras", "provocar quebra de regra"],
+      "descricao": "Influência NRP - provocar terceiros a quebrarem as regras.",
+      "penalidade": "Bloqueio da conta por 12 horas",
+      "categoria": "Chat"
+    },
+    "CHAT15": {
+      "keywords": ["comportamento tóxico", "tóxico", "comportamento negativo"],
+      "descricao": "Comportamento Tóxico - ações, comentários ou atitudes prejudiciais.",
+      "penalidade": "Banimento da conta de 1 a 3 dias",
+      "categoria": "Chat"
+    },
+    "CHAT16": {
+      "keywords": ["uso língua oficial", "idioma errado", "língua incorreta"],
+      "descricao": "Uso da Língua Oficial - não usar o idioma oficial da comunidade.",
+      "penalidade": "10/15/30/60 minutos de mute até 12 horas de banimento",
+      "categoria": "Chat"
+    },
+    "CHAT17": {
+      "keywords": ["divulgação informações pessoais", "doxxing", "dados confidenciais"],
+      "descricao": "Divulgação de informações pessoais - doxxing de outros jogadores.",
+      "penalidade": "Banimento permanente de todas as contas vinculadas",
+      "categoria": "Chat"
+    },
+    "TCHAT1": {
+      "keywords": ["fuga de tópico", "tópico errado", "assunto errado"],
+      "descricao": "Fuga de tópico - mensagens no chat de negociação não relacionadas ao comércio.",
+      "penalidade": "Mute de 10 minutos a 60 minutos",
+      "categoria": "Chat"
+    },
+    "TCHAT2": {
+      "keywords": ["propaganda enganosa", "anúncio enganoso", "bens inexistentes"],
+      "descricao": "Propaganda enganosa - anúncio de bens que não estejam no jogo.",
+      "penalidade": "Bloqueio dos chats de texto e voz por 10 minutos",
+      "categoria": "Chat"
+    },
+    "TCHAT3": {
+      "keywords": ["spam trade", "flood trade", "spam comércio"],
+      "descricao": "Spam e Flood - no chat de comércio.",
+      "penalidade": "Bloqueio dos chats de texto e voz por 5 minutos",
+      "categoria": "Chat"
+    },
+    "ABUSE1": {
+      "keywords": ["exploit", "bug abuse", "usar bug", "vulnerabilidade"],
+      "descricao": "Abuso de modificações do jogo - usar erros ou vulnerabilidades.",
+      "penalidade": "Banimento da conta de 1 a 30 dias",
+      "categoria": "Abuso"
+    },
+    "ABUSE2": {
+      "keywords": ["afk farm", "afk macro", "clicker", "macro afk"],
+      "descricao": "Abuso de AFK - usar programas para evitar desconexão por inatividade.",
+      "penalidade": "Banimento da conta por 3 dias",
+      "categoria": "Abuso"
+    },
+    "ABUSE3": {
+      "keywords": ["reincidência regras", "quebrar muitas regras", "violação sistemática"],
+      "descricao": "Não observância das regras - violação sistemática e repetida.",
+      "penalidade": "Bloqueio da conta de 3 a 30 dias",
+      "categoria": "Abuso"
+    },
+    "ABUSE3.1": {
+      "keywords": ["violação extrema", "abusar repetidamente", "múltiplas infrações"],
+      "descricao": "Violação Extrema das Regras - múltiplas infrações do ABUSE3.",
+      "penalidade": "Banimento permanente de todas as contas",
+      "categoria": "Abuso"
+    },
+    "ABUSE4": {
+      "keywords": ["quebrar evento", "estragar rp evento", "interromper evento"],
+      "descricao": "Interrupção de RP de larga escala.",
+      "penalidade": "Banimento 12 horas",
+      "categoria": "Abuso"
+    },
+    "ABUSE5": {
+      "keywords": ["bloquear entrada", "trancar acesso", "impedir acesso"],
+      "descricao": "Bloqueio de pontos relevantes.",
+      "penalidade": "10 a 60 minutos cadeia",
+      "categoria": "Abuso"
+    },
+    "ALERT1": {
+      "keywords": ["evasão de ban", "ban evade", "burlar banimento"],
+      "descricao": "Evasão de banimento.",
+      "penalidade": "14 dias até banimento permanente",
+      "categoria": "Alerta"
+    },
+    "ALERT2": {
+      "keywords": ["danificar servidores", "prejudicar servidor", "ataque servidor"],
+      "descricao": "Danificar os servidores do projeto ONESTATE.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Alerta"
+    },
+    "ALERT3": {
+      "keywords": ["cheat", "hack", "programa ilegal", "software terceiros"],
+      "descricao": "Uso de software de terceiros (cheats).",
+      "penalidade": "Banimento permanente",
+      "categoria": "Alerta"
+    },
+    "ALERT4": {
+      "keywords": ["dano economia", "transferência excessiva", "limite transferência"],
+      "descricao": "Dano à Economia do Servidor - transferência excessiva de dinheiro ou itens.",
+      "penalidade": "Remoção do valor e banimento de 30 dias até permanente",
+      "categoria": "Alerta"
+    },
+    "ALERT5": {
+      "keywords": ["difamação externa", "prejudicar projeto externamente", "ataque externo"],
+      "descricao": "Difamação Externa - prejudicar a integridade do projeto em canais externos.",
+      "penalidade": "Banimento permanente de todas as contas",
+      "categoria": "Alerta"
+    },
+    "ALERT6": {
+      "keywords": ["divulgação de terceiros", "propaganda externa", "mencionar outros jogos"],
+      "descricao": "Divulgação de terceiros - promover outros jogos ou serviços.",
+      "penalidade": "Banimento de 1 dia a banimento permanente",
+      "categoria": "Alerta"
+    },
+    "ALERT7": {
+      "keywords": ["decisão administração sênior", "decisão admin sênior"],
+      "descricao": "Decisão da Administração Sênior - punições não especificadas na lista.",
+      "penalidade": "A critério da administração",
+      "categoria": "Alerta"
+    },
+    "MEDIA1": {
+      "keywords": ["stream sniping", "interferência filmagem", "sabotagem gravação"],
+      "descricao": "Stream Sniping/Interferência na filmagem.",
+      "penalidade": "Banimento da conta de 1 hora a 24 horas",
+      "categoria": "Mídia"
+    },
+    "CLAN1": {
+      "keywords": ["nome gangue ofensivo", "descrição gangue proibida", "cargo gangue ofensivo"],
+      "descricao": "Nome, cargos e descrição da gangue ofensivos.",
+      "penalidade": "Mudança forçada do nome/descrição",
+      "categoria": "Clan"
+    },
+    "CLAN2": {
+      "keywords": ["bloquear qg", "impedir acesso qg", "marcador qg bloqueado"],
+      "descricao": "Bloqueio dos marcadores de entrada do QG.",
+      "penalidade": "Prisão por 30 minutos",
+      "categoria": "Clan"
+    },
+    "CLAN3": {
+      "keywords": ["regras chat gangue", "chat gangue"],
+      "descricao": "Regras do chat da Gangue - todas as regras de chat se aplicam.",
+      "penalidade": "Bloqueio de texto e voz pelo período referente à violação",
+      "categoria": "Clan"
+    },
+    "CLAN4": {
+      "keywords": ["associação gangues", "aliança evento", "gangues unidas evento"],
+      "descricao": "Associação a outras gangues durante os eventos.",
+      "penalidade": "Prisão por 30 minutos",
+      "categoria": "Clan"
+    },
+    "CLAN5": {
+      "keywords": ["taser mais de 2 vezes", "abuso taser", "uso excessivo taser"],
+      "descricao": "Abuso do uso de tasers.",
+      "penalidade": "60 minutos cadeia",
+      "categoria": "Clan"
+    },
+    "CLAN5.1": {
+      "keywords": ["taser criminal polícia", "taser bandido polícia", "taser exército"],
+      "descricao": "Uso do taser criminal em membros das forças de segurança sem motivo RP.",
+      "penalidade": "90 minutos de prisão",
+      "categoria": "Clan"
+    },
+    "CLAN6": {
+      "keywords": ["assassinato qg", "matar no qg", "qg marcador"],
+      "descricao": "Assassinato no marcador dos QGs.",
+      "penalidade": "40 minutos na cadeia",
+      "categoria": "Clan"
+    },
+    "CLAN7": {
+      "keywords": ["bloquear qg veículos", "veículos bloqueando qg", "impedir acesso qg veículos"],
+      "descricao": "Bloquear com veículos o marcador do QG.",
+      "penalidade": "60 minutos na cadeia",
+      "categoria": "Clan"
+    },
+    "CLAN8": {
+      "keywords": ["crime área verde", "atividade ilegal área verde", "tiroteio área verde"],
+      "descricao": "Agitação e atividade ilegal nas áreas verdes.",
+      "penalidade": "Prisão por 60 minutos",
+      "categoria": "Clan"
+    },
+    "CLAN9": {
+      "keywords": ["taser veículo trabalho", "taser carro trabalho", "taser veículo"],
+      "descricao": "Uso de taser em veículos de trabalho.",
+      "penalidade": "Prisão por 90 minutos",
+      "categoria": "Clan"
+    },
+    "CLAN10": {
+      "keywords": ["abuso moedas gangue", "moedas gangue bug", "ganho desonesto moedas"],
+      "descricao": "Abuso de ganho e/ou uso desonesto das moedas de gangue.",
+      "penalidade": "Recolhimento dos bens adquiridos e exclusão da gangue",
+      "categoria": "Clan"
+    }
+  }
+}
