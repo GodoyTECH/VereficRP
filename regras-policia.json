@@ -1,0 +1,222 @@
+[17:44, 16/10/2025] Godoy Solutions in TECH: {
+  "regras": {
+    "NAME1": {
+      "keywords": ["nickname errado", "nick fora do rp", "nome sem rp", "nickname fora do rp"],
+      "descricao": "Uso de Nickname que não seja referente a Role Play.",
+      "penalidade": "Mudança forçada do nickname",
+      "categoria": "Nome"
+    },
+    "NAME2": {
+      "keywords": ["nickname ofensivo", "nick ofensivo", "nome ofensivo"],
+      "descricao": "Uso de nickname ofensivo NRP.",
+      "penalidade": "Mudança forçada do nickname",
+      "categoria": "Nome"
+    },
+    "AC1": {
+      "keywords": ["venda de conta", "vender conta", "venda conta"],
+      "descricao": "Venda ou tentativa de venda de uma CONTA.",
+      "penalidade": "Bloqueio permanente de todas as CONTAS",
+      "categoria": "Contas"
+    },
+    "AC2": {
+ …
+[17:47, 16/10/2025] Godoy Solutions in TECH: {
+  "infracoesPolicia": {
+    "CRIMINAL_1": {
+      "keywords": ["captura das instituições públicas", "captura instituição pública", "tomar instituição pública"],
+      "descricao": "Captura das instituições públicas",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_2": {
+      "keywords": ["tomada do poder pela força", "tomar poder pela força", "tomada poder força"],
+      "descricao": "Tomada do poder pela força",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_3": {
+      "keywords": ["tomada de reféns", "sequestro", "refém", "tomada refém"],
+      "descricao": "Tomada de reféns ou sequestro",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_4": {
+      "keywords": ["colisão fatal com pedestre", "atropelamento fatal", "matar atropelando"],
+      "descricao": "Colisão fatal com um pedestre",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_5": {
+      "keywords": ["tentativa de roubo", "tentar roubar", "tentativa roubo"],
+      "descricao": "Tentativa de roubo",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_6": {
+      "keywords": ["roubo a policial", "roubar policial", "assalto a policial"],
+      "descricao": "Roubo a um policial",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_7": {
+      "keywords": ["entrada não autorizada", "entrada território protegido", "invadir território"],
+      "descricao": "Entrada não autorizada em território protegido",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_8": {
+      "keywords": ["colisão com pedestre", "atropelar pedestre", "bater em pedestre"],
+      "descricao": "Colisão com pedestre",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_9": {
+      "keywords": ["disparos de arma em local público", "tiros em público", "atirar em público", "sem porte"],
+      "descricao": "Disparos de arma em local público/Sem porte",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_10": {
+      "keywords": ["suborno de policial", "subornar policial", "corromper policial"],
+      "descricao": "Suborno de um policial",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_11": {
+      "keywords": ["assassinato de civil", "matar civil", "assassinato civil"],
+      "descricao": "Assassinato de civil ou policial - PROIBIDO APLICAÇÃO",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CRIMINAL_12": {
+      "keywords": ["ataque a policial", "atacar policial", "agredir policial"],
+      "descricao": "Ataque a um policial - PROIBIDO APLICAÇÃO",
+      "penalidade": "20 minutos de prisão",
+      "categoria": "Criminal"
+    },
+    "CIVIL_1": {
+      "keywords": ["danos à propriedade pública", "danificar propriedade pública", "destruir propriedade pública"],
+      "descricao": "Danos à propriedade pública",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_2": {
+      "keywords": ["danos à propriedade privada", "danificar propriedade privada", "destruir propriedade privada"],
+      "descricao": "Danos à propriedade privada",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_3": {
+      "keywords": ["trotes para polícia", "trote emergência", "trote polícia"],
+      "descricao": "Trotes para a polícia/emergência",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_4": {
+      "keywords": ["arruaça", "baderna", "confusão pública"],
+      "descricao": "Arruaça",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_5": {
+      "keywords": ["assassinato", "ameaça de assassinato", "ameaça de morte"],
+      "descricao": "Assassinato, ameaça de assassinato",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_6": {
+      "keywords": ["insulto a funcionário público", "ofender funcionário público", "xingar funcionário público"],
+      "descricao": "Insulto a funcionário público",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "CIVIL_7": {
+      "keywords": ["extorsão", "chantagem", "extorquir"],
+      "descricao": "Extorsão",
+      "penalidade": "10 minutos de prisão",
+      "categoria": "Civil"
+    },
+    "ADMIN_1": {
+      "keywords": ["resistência à prisão", "resistir prisão", "fugir da prisão"],
+      "descricao": "Resistência à prisão",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    },
+    "ADMIN_2": {
+      "keywords": ["desacato à autoridade", "desacato autoridade", "desrespeito autoridade"],
+      "descricao": "Desacato à autoridade",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    },
+    "ADMIN_3": {
+      "keywords": ["auxílio à resistência", "ajudar fugir prisão", "auxiliar resistência"],
+      "descricao": "Auxílio à resistência à prisão",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    },
+    "ADMIN_4": {
+      "keywords": ["infração leis trânsito", "violação trânsito", "infração trânsito"],
+      "descricao": "Infração das leis de trânsito",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    },
+    "ADMIN_5": {
+      "keywords": ["ataque a civis", "violência contra civis", "agredir civil"],
+      "descricao": "Ataque a civis (violência)",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    },
+    "ADMIN_6": {
+      "keywords": ["recusa apresentar documentos", "negar documentos", "recusa documentos"],
+      "descricao": "Recusa a apresentar documentos",
+      "penalidade": "5 minutos de prisão",
+      "categoria": "Administrativa"
+    }
+  },
+  "regrasDepartamento": [
+    {
+      "numero": "1",
+      "descricao": "É proibido levantar falsas acusações contra civis. Qualquer policial que algemar, atirar, soltar taser ou aprisionar qualquer cidadão sem uma acusação sólida será removido da corporação."
+    },
+    {
+      "numero": "2",
+      "descricao": "É proibido deter ou aprisionar qualquer cidadão sem causa para isso. O policial que o fizer será removido da corporação."
+    },
+    {
+      "numero": "3",
+      "descricao": "A atitude desrespeitosa com colegas e civis não é aceitável. Não seja rude, não insulte e não seja, de maneira nenhuma, intolerante. Penalidade: 1º repreensão"
+    },
+    {
+      "numero": "4",
+      "descricao": "O uso de armamentos, força física e/ou equipamento especial sem aviso prévio ou uma razão justificável dentro do roleplay é proibido. Razões justificáveis são: Detenção de um criminoso procurado por crimes identificados pelo sistema, Resistência à prisão, Colocar em risco a integridade física ou a vida de um policial ou de um civil, Perseguição policial. Penalidade: 1º repreensão e em casos mais graves remoção da corporação."
+    },
+    {
+      "numero": "5",
+      "descricao": "Não obediência às regras impostas pela liderança. Punição: 1 repreensão."
+    },
+    {
+      "numero": "6",
+      "descricao": "É proibido violar as regras do servidor. Punição: 1 repreensão E punição referente à violação."
+    },
+    {
+      "numero": "7",
+      "descricao": "Usar os veículos da corporação para benefício pessoal é proibido. Punição: 1 repreensão."
+    },
+    {
+      "numero": "8",
+      "descricao": "Insultos à liderança da corporação são punidos com 1 repreensão"
+    },
+    {
+      "numero": "9",
+      "descricao": "Passos OBRIGATÓRIOS ao prender alguém: Ao prender alguém, o policial deve explicar de forma clara a razão da apreensão. Ao abordar alguém, o policial DEVE primeiramente ordenar que o cidadão pare o que está fazendo (andando, dirigindo). Em caso de não obediência o uso do Taser é permitido. Matar alguém que não oferece riscos é TERMINANTEMENTE PROIBIDO."
+    },
+    {
+      "numero": "10",
+      "descricao": "É proibido o uso de veículo pessoal para realizar as atividades policiais. Penalidade: 1º repreensão e em caso de reincidência, expulsão."
+    },
+    {
+      "numero": "11",
+      "descricao": "Repreensões resultam na expulsão do policial da corporação"
+    }
+  ]
+}
