@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VERIFIC RP - Verificador de Infrações</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🔎 VERIFIC RP</h1>
+            <p class="subtitle">Identifique rapidamente as infrações cometidas com base na descrição fornecida</p>
+            <p class="direitos">© Direitos reservados a Mikhael Devereux e Luiza Devereux</p>
+        </header>
+
+        <main>
+            <!-- Seção de Infrações Gerais -->
+            <section class="secao-rp">
+                <h2 class="titulo-secao">🚨 REGRAS RP - INFRAÇÕES GERAIS</h2>
+                
+                <div class="input-section">
+                    <label for="entrada">Descreva a infração para verificação:</label>
+                    <textarea 
+                        id="entrada" 
+                        placeholder="Exemplo: jogador matou outro sem motivo, assaltou um civil, utilizou cheats..."
+                        aria-label="Descrição da infração"
+                    ></textarea>
+                </div>
+
+                <div class="button-container">
+                    <button id="verificarBtn" onclick="verificar()">Verificar Infração</button>
+                </div>
+
+                <div class="estatisticas" id="estatisticas" style="display: none;">
+                    <div class="estatistica">
+                        <div class="valor" id="totalInfracoes">0</div>
+                        <div class="rotulo">Infrações Encontradas</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaRP">0</div>
+                        <div class="rotulo">Regras RP</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaCHAT">0</div>
+                        <div class="rotulo">Regras Chat</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaGRAVE">0</div>
+                        <div class="rotulo">Infrações Graves</div>
+                    </div>
+                </div>
+
+                <section class="resultado" id="resultado">
+                    <!-- Resultados aparecerão aqui -->
+                </section>
+            </section>
+
+            <!-- Seção da Polícia -->
+            <section class="secao-policia">
+                <h2 class="titulo-secao">👮 INFRAÇÕES DA POLÍCIA</h2>
+                
+                <div class="input-section">
+                    <label for="entradaPolicia">Descreva a infração policial para verificação:</label>
+                    <textarea 
+                        id="entradaPolicia" 
+                        placeholder="Exemplo: captura de instituição pública, roubo a policial, danos à propriedade..."
+                        aria-label="Descrição da infração policial"
+                    ></textarea>
+                </div>
+
+                <div class="button-container">
+                    <button id="verificarPoliciaBtn" onclick="verificarPolicia()">Verificar Infração Policial</button>
+                    <button id="regrasPoliciaBtn" onclick="mostrarRegrasPolicia()" class="btn-regras">📋 Ver Regras da Polícia</button>
+                </div>
+
+                <div class="estatisticas" id="estatisticasPolicia" style="display: none;">
+                    <div class="estatistica">
+                        <div class="valor" id="totalInfracoesPolicia">0</div>
+                        <div class="rotulo">Infrações Encontradas</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaCriminal">0</div>
+                        <div class="rotulo">Criminal</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaCivil">0</div>
+                        <div class="rotulo">Civil</div>
+                    </div>
+                    <div class="estatistica">
+                        <div class="valor" id="categoriaAdministrativa">0</div>
+                        <div class="rotulo">Administrativa</div>
+                    </div>
+                </div>
+
+                <section class="resultado" id="resultadoPolicia">
+                    <!-- Resultados da polícia aparecerão aqui -->
+                </section>
+
+                <!-- Modal das Regras da Polícia -->
+                <div id="modalRegrasPolicia" class="modal" style="display: none;">
+                    <div class="modal-content">
+                        <span class="close" onclick="fecharModalRegras()">&times;</span>
+                        <h2>🚔 Regras da Polícia 🚔</h2>
+                        <div class="regras-policia-content" id="regrasPoliciaContent">
+                            <!-- Conteúdo das regras será inserido aqui -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Desenvolvido por <strong>Godoy Solutions in Tech</strong> - Caique Eduardo Godoy Da Silva (Cadu Godoy)</p>
+        </footer>
+    </div>
+
+    <script src="regras.json"></script>
+    <script src="regras-policia.json"></script>
+    <script src="script.js"></script>
+</body>
+</html>
